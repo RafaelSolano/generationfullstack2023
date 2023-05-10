@@ -1,0 +1,42 @@
+.container{
+    
+    border: 5px solid rgb(116, 250, 114);
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-columns: 150px 150px 150px  ;
+    grid-template-areas:
+        "header header header"
+        "side main main"
+        "side main main"
+        
+        ;
+    place-content: center ;
+    
+    
+}
+.item1{
+    border: 5px solid #f27b7b;
+    background-color: #efaeae;
+    font-size: 3rem;
+    grid-area: header;
+    
+    
+}
+
+.item2{
+    border: 5px solid #5146ec;
+    background-color: #8780ec;
+    font-size: 3rem;
+    grid-area: side;
+  
+    
+}
+
+.item3{
+    border: 5px solid #e3bd35;
+    background-color: #eaea82;
+    font-size: 3rem;
+    grid-area: main;
+    
+}

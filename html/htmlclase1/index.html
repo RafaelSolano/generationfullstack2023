@@ -1,0 +1,180 @@
+<!-- le dice al navegador que es unarchivo de html5 -->
+<!DOCTYPE html>
+<!--El lenguaje de la pagina -->
+<html lang="es">
+
+<!-- la etiqueta head guarda la informacion, metadatos , links etc -->
+
+<head>
+    <!-- el tipo de caracteres -->
+    <meta charset="UTF-8">
+    <!-- par usar dispositivos moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- activa los robots de pociconamiento de los buscadores -->
+    <meta name="robots" content="index">
+
+    <!-- muestra el icon de favoritos en el navegador -->
+    <link rel="icon" type="image/x-icon" href="/icons8-globo-48.png">
+    <!-- titulo en el navegador -->
+    <title>html</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        
+    
+        table{
+            margin:30px auto;
+            border-collapse: collapse;
+            box-shadow: 2px 2px 3px ;  
+            
+        }
+        
+        thead{
+            background-color: #f0a0a0;
+            
+            
+            }
+        tbody{
+            background-color: #dfdfb9;
+            }
+        tfoot{
+            background-color: #9393e7;
+            
+        }
+        th, td{
+            border: 1px solid gray;
+            padding: 4px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Clase 1 HTML Generation</h1> 
+    </center>
+
+    <main >
+        <table>
+            <thead>
+                <th>id</th>
+                <th>Nombre</th>
+                <th>Aporte</th>
+                
+            </thead>
+            <tbody align="center">
+                <td>1</td>
+                <td>Pedro</td>
+                <td>100</td>
+                </t>
+                <tr>
+                    <td>2</td>
+                    <td>Maria</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Juan</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pablo</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>Total</td>
+                <td></td>
+                <td>800</td>
+            </tfoot>
+        </table>
+        
+<!--** Ejercicio 1 -->
+        <section>
+            <table >
+                <!-- Encabezado -->
+                <thead>
+                    <th>Mes</th>
+                    <th>Enero</th>
+                    <th>Febrero</th>
+                    <th>Marzo</th>
+                    <th>Abril</th>
+                    <th>Mayo</th>
+                    <th>Junio</th>
+                </thead>
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <td>pib</td>
+                        <td>0.2</td>
+                        <td>0.4</td>
+                        <td>0.2</td>
+                        <td>0.3</td>
+                        <td>0.1</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>pnb</td>
+                        <td>1.3</td>
+                        <td>1.2</td>
+                        <td>1.1</td>
+                        <td>1.9</td>
+                        <td>1.7</td>
+                        <td>1.6</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        
+<!--** Ejercicio 2 -->
+        <section>
+            <table   >
+                <thead >
+                    <th>Paquete 1 </th>
+                    <th>Paquete 2</th>
+                    <th>Paquete 3</th>
+                    <th>Paquete 4</th>
+                    <th>Paquete 5</th>
+                </thead>
+                <tbody  >
+                    <tr>
+                        <td>Matematicas</td>
+                        <td>Ciencias</td>
+                        <td>Sociales</td>
+                        <td>Arte</td>
+                        <td>Matematicas</td>
+                    </tr>
+                    <tr>
+                        <td>Ingles</td>
+                        <td>Arte</td>
+                        <td>Matematicas</td>
+                        <td>Fisica</td>
+                        <td>Sociales</td>
+                    </tr>
+                    <tr>
+                        <td>Computacion</td>
+                        <td>Matematicas</td>
+                        <td>Redaccion</td>
+                        <td>Fisica</td>
+                        <td>Redaccion</td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot>
+                        <td>10 $</td>
+                        <td>20 $</td>
+                        <td>30 $</td>
+                        <td>40 $</td>
+                        <td>50 $</td>
+                </tfoot>
+            </table>
+        </section>
+
+        <!--table>thead>th{Paquete $}*5^tbody>tr*3>td*5^tfoot>td*5
+-->
+    </main>
+</body>
+</html>
